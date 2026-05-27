@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# env files
+.env
+.env.*
+!.env.sample
+
+# k3d / kubernetes
+kubeconfig
+*.kubeconfig
+
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
