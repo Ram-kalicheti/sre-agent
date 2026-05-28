@@ -231,3 +231,5 @@ kubeconfig
 *.tfstate
 *.tfstate.backup
 .terraform.lock.hcl
+.venv/
+.env.local
